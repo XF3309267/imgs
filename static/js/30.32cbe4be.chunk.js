@@ -1,0 +1,2 @@
+(this["webpackJsonpbinary-app"]=this["webpackJsonpbinary-app"]||[]).push([[30],{760:function(t,n,e){"use strict";e.r(n),e.d(n,"default",(function(){return o}));var a=e(3),r=e(4),i=e(5),c=e(6),u=e(0),p=e.n(u),o=function(t){Object(c.a)(e,t);var n=Object(i.a)(e);function e(){return Object(a.a)(this,e),n.apply(this,arguments)}return Object(r.a)(e,[{key:"render",value:function(){return p.a.createElement("div",null,"ArtifactEdit")}}]),e}(u.Component)}}]);
+//# sourceMappingURL=30.32cbe4be.chunk.js.map
