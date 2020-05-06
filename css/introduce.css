@@ -1,0 +1,543 @@
+
+.stduioBrief{
+    text-align: center;
+    margin-top: 8%;
+    min-width: '320px';
+}
+.stdTitleContainer{
+    margin: 6% 0 4% 0;
+}
+
+.myNormalFont{
+    font-family: myTitleFont;
+}
+
+.my-font{
+    font-family: myTitleFont;
+    font-style: italic;
+}
+
+.stdContent{
+    line-height: 2em;
+}
+.missontitle{
+    height: 2em;
+}
+.stdIcon{
+    position: absolute;
+    top:400px;
+    left:200px;
+    width: 60%;
+}
+.history-header {
+    height: 384px;
+    /* background-size: cover;
+    background-image: url(../image/brief/banner.jpg);
+    background-position: center;
+    color: #fff; */
+}
+.history-header h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    padding-top: 150px;
+    font-family: myTitleFont;
+    color: #fff;
+}
+.intro-progress-bar {
+    width: 336px;   
+    /* 80*3 + 24*4 */
+    margin: auto;
+    padding-top: 70px;
+}
+.intro-progress-bar .node {
+    width: 24px;
+    height: 24px;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.intro-progress-bar .node .txt {
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+    width: 200px;
+    text-align: center;
+    left: 50%;
+    margin-left: -100px;
+}
+.intro-progress-bar .node .core {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 50%;
+}
+
+.intro-progress-bar .node.active .core {
+    background: #fff;
+}
+
+.intro-progress-bar .line {
+    float: left;
+    height: 2px;
+    background: rgba(255,255,255,0.5);
+    width: 80px;
+    margin-top: 11px;
+}
+
+.history-content {
+
+    height: 370px;
+    padding-bottom: 50px;
+    background: #FBFBFB;
+    color: #5F6464;
+    overflow: hidden;
+    text-shadow: 0 0 black;
+}
+.history-content .mod-cn{
+    position: relative;
+    
+}
+
+.history-main {
+    height: 100%;
+    width: 4200px;
+    position: absolute;
+    /* transition: all 0.1s ;
+    -moz-transition: all 0.1s ;	
+    -webkit-transition: all 0.1s ;
+    -o-transition: all 0.1s ; */
+}
+.history-main-box {
+    width: 500px;
+    float: left;
+    /* padding: 0 50px; */
+    margin-left: 100px;
+}
+
+.history-title {
+    font-size: 24px;
+    padding-top: 40px;
+    line-height: 36px;
+    font-family: myTitleFont;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #D8D9DC;
+    margin-bottom: 18px;
+    color: #2A2E2E;
+
+}
+
+.history-main-box .historyContentLi {
+    line-height: 25px;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+.history-main-box .historyContentLi .both{
+    clear: both;
+}
+.history-main-box .historyContentLi .left {
+    float: left;
+    width: 40px;
+    padding-right: 10px;
+    text-align: right;
+}
+.history-main-box .historyContentLi .right {
+    width: 400px;
+    float: left;
+}
+
+/*  工作室介绍  我们的团队 */
+.teamContainer{
+    min-height: 500px;
+    padding: 60px 10px;
+    margin: 20px 20px;
+}
+
+
+.teamTitle{
+    padding: 20px;
+}
+.teamTitle h3{
+    font-family: myTitleFont;
+    font-style: italic;
+    text-align: center;
+    color:rgb(0, 110, 255);
+}
+
+.teamContent{
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 1.42%;
+    max-height: 180px;
+    /* background-color: goldenrod; */
+}
+.teamItem{
+    /* display: inline-block; */
+    float: left;
+    width:15%;
+    height: 130px;
+    padding: 40px 10px;
+    margin-right:1.42%;
+    background-color:#F2F3F5;
+    cursor: pointer;
+}
+.teamItem .label{
+    letter-spacing: 0;
+    font-family: myTitleFont;
+    /* color: rgb(0, 89, 255); */
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+.teamItem.active{
+    position: relative;
+}
+.san {
+    width: 48px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    bottom: -35px;
+    display: none;
+}
+.active .san {
+    display: block;
+}
+.teamShowUl {
+    margin-top: 20px;
+}
+.teamShowUl .active{
+    display: block;
+}
+
+.teamShowLi{
+    width:100%;
+    height: 100px;
+    padding: 30px 40px;
+    background-color: white;
+    display: none;
+}
+.myMdNone{
+    display: block;
+}
+.myMdShow{
+    display: none;
+}
+.myMobTeaName{
+    color:black;
+    text-decoration: none;
+}
+.teamContentContainer{
+    font-size: 1em;
+}
+.rulesContainer{
+    width:100%;
+    background-color:white;
+    min-height:250px;
+    padding:20px;
+    padding-top: 30px;
+}
+.rulesContainer li{
+    padding: 5px 0px;
+}
+.rulesContainer .my-font h6 {
+    line-height: 25px;
+}
+
+@media screen and (max-width: 769px){
+.f-content {
+    width: 94%;
+    margin: auto;
+    float: none;
+}
+}
+
+@media screen and (max-width: 768px){
+    .history-header {
+        height: 250px;
+    }
+    .history-header h2 {
+        padding-top: 72px;
+        font-size: 24px;
+    }
+    .intro-progress-bar {
+        padding-top: 50px;
+        transform:  translate(-50%,-50%) scale(0.7,0.7);
+        margin: auto;
+        position: absolute;
+        left: 60%;
+        top: 160px;
+    }
+    body .mod-con {
+        margin: 0 12px;
+    }
+    .history-main{
+        width: 2520px;
+    }
+    .history-title {
+        padding-top: 0px;
+        margin-bottom: 12px;
+    }
+
+    .history-main-box .li {
+        margin-bottom: 12px;
+    }
+    .history-main-box {
+        width: 300px;
+        float: left;
+        /* padding: 0 50px; */
+        margin-left: 60px;
+    }
+    .history-main-box .historyContentLi .right {
+        width: 240px;
+        float: left;
+    }
+    .teamContentContainer{
+        font-size: 0.9em;
+    }
+
+    .teamContainer{
+        /* min-height: 500px;
+        padding: 70px 10px; */
+        margin: 20px 0px;
+    }
+    .teamheader h3{
+        text-align: center;
+    }
+
+    .myMdNone{
+        display: none;
+    }
+    .myMdShow{
+        display: block;
+    }
+}
+
+/* 
+    作品 CSS
+*/
+.h-title{
+    border-bottom: 2px solid black;
+}
+.dynamicContent{
+        background-color:#fafafb;
+        min-height:200px;
+        padding:40px 0px;
+    }
+.my-card{
+    cursor: pointer;
+    position: relative;
+    top:0px;
+    /* box-shadow: 2px 2px 3px 3px #eee; */
+    transition: .2s top ease-in-out,.2s box-shadow ease-in-out;
+    width:14rem;
+   
+}
+
+
+
+.my-card:hover{
+    /* transform:  translateY(-2px); */
+    
+    top:-5px;
+    box-shadow:1px 1px 10px 2px #eee;
+    transition: .2s top ease-in-out,.2s box-shadow ease-in-out;
+   
+  
+    
+}
+/* 
+    工作室时讯 CSS
+*/
+.smNav{
+    width:1200px;
+    padding:10px;
+    margin:0 auto;
+    
+    font-size: 1.2em;
+}
+
+.f-content .page-content {
+    width: 92%;
+    margin: auto;
+}
+
+.page-content {
+
+    width: 1000px;
+    padding-left: 192px;
+    float: left;
+    padding-top: 73px;
+    padding-bottom: 90px;
+}
+.years-box-content {
+    float: left;
+    width: 660px;
+}
+.years-box-title {
+    float: left;
+    width: 120px;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: TencentSansw7;
+    font-weight: normal;
+}
+
+.f-content {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.event-left{
+    width: 85%;
+    float: left
+}
+.event-sm-title {
+    line-height: 29px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.event-data{
+    height: 59px;
+    line-height: 26px;
+    padding-bottom: 33px
+}
+.float{
+    float:right
+}
+.both{
+    clear: both;
+}
+
+/* 时讯详情  CSS */
+.capDetailHead{
+    border-bottom:2px solid #efefef;
+    text-align:left;
+    padding-bottom:20px;
+}
+.capDetailTitle{
+    font-size: 40px;
+    color: black;
+    padding: 5px;
+}
+.capDetailTime{
+    padding-top: 5px;
+    font-size:1.4em;
+    color:#D8D9DC
+}
+.capDetailContent{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.capDetailContent p{
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 1201px){
+    .f-content {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .page-content {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .page-content {
+        width: 92%;
+        margin: auto;
+
+        padding-left: 0px;
+        /* width: auto; */
+        float: none;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .capDetailTitle{
+        font-size: 1.5em;
+       
+    }
+    .f-content {
+        width: 94%;
+        margin: auto;
+        float: none;
+    }
+
+    .years-box-content {
+        width: 100%;
+    }
+
+    .event-left {
+        width: 75%;
+    }
+
+    .years-box-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .event .left {
+        width: 75%;
+    }
+    .event-sm-title {
+        height: auto;
+        line-height: 24px;
+       
+    }
+    .event-sm-title h5 {
+       
+        font-size: 1em;
+    }
+}
+
+/* 
+    工作室专题CSS
+*/
+
+.shartLeft{
+    display: inline-block;
+    width: 24%;
+    padding: 1%; 
+    /* verticalAlign: "middle" */
+}
+.shartRight{
+    width: 50%;
+    display: inline-block;
+    padding-left:10%;
+    color: #333;
+    font-size: 1.3em;
+    line-height: 2.6em;
+    vertical-align: middle;
+}
+.shartRight .link{
+    line-height: 2em;
+    color: gainsboro;
+}
+@media screen and (max-width: 769px){
+    .sharePartItem{
+        padding: 0 1%;
+    }
+
+    .shartRight .link {
+        line-height: 1em;
+        color: gainsboro;
+    }
+    .shartLeft{
+        width: 40%;
+    }
+}
+
