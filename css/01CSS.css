@@ -4,8 +4,8 @@ body {
 
 @font-face {
     font-family: "myTitleFont";
-    src: url('../font/myFont.ttf');
-    src:url('../font/myFont.ttf') format('truetype'),
+    src: url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/font/myFont.ttf');
+    src:url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/font/myFont.ttf') format('truetype'),
    }  
 
 /*  è‡ªå†™ CSS æ ·å¼ */
@@ -162,7 +162,7 @@ body {
     /* background-attachment: fixed; */
 }
 .head-big-img-home{
-    background:url('../image/titleJpg2.jpg')
+    background:url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/image/titleJpg2.jpg')
 }
 
 .head-big-img-a {
@@ -184,7 +184,7 @@ body {
     background-repeat: no-repeat;
 }
 .head-sm-img-home {
-    background: url('../image/titleSM.jpg')
+    background: url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/image/titleSM.jpg')
 }
 
 .ull {
@@ -335,12 +335,12 @@ body {
 }
 
 .news-content .swiper-button-prev {
-    background-image: url(../img/left_white.png?v=12);
+    background-image: url(https://cdn.jsdelivr.net/gh/XF3309267/imgs/img/left_white.png?v=12);
     left: -100%;
 }
 
 .news-content .swiper-button-next {
-    background-image: url(../img/right_white.png?v=12);
+    background-image: url(https://cdn.jsdelivr.net/gh/XF3309267/imgs/img/right_white.png?v=12);
     right: -100%;
 }
 
@@ -569,11 +569,11 @@ body {
     line-height: 1.2;
     padding-right: 3em;
     color: #000;
-    background: url(../img/gray_right.png?v=12) right 1em center/ auto 100% no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/XF3309267/imgs/img/gray_right.png?v=12) right 1em center/ auto 100% no-repeat;
 }
 
 .more-news-tip:hover {
-    background-image: url(../img/gray_right_01.png?v=12);
+    background-image: url(https://cdn.jsdelivr.net/gh/XF3309267/imgs/img/gray_right_01.png?v=12);
 }
 
 .news-time {
@@ -604,18 +604,7 @@ body {
 }
 
 .bd-topic-items {
-    /* min-width: 786px;*/
-    /*    display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-      flex-flow: row wrap;*/
-    /*width: 310px;
-      height: 225px;*/
+
 }
 
 .bd-dynamic-topic .item {
