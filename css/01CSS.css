@@ -155,14 +155,10 @@ body {
     height: 480px;
     background-size: cover;
     width: 100%;
-    /* padding-bottom: 44.75%; */
-    background-position: center center;
-    /* background-size: auto 100%; */
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
 }
 .head-big-img-home{
-    background:url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/image/titleJpg2.jpg')
+    background:url('https://cdn.jsdelivr.net/gh/XF3309267/imgs/image/titleJpg2.jpg');
+    background-size: cover;
 }
 
 .head-big-img-a {
@@ -175,7 +171,6 @@ body {
 }
 
 .head-sm-img {
-    
     display: none;
     height: 20rem;
     width:100%;
